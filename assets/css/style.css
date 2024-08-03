@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(9, 32, 50, 0.219),
+      rgba(9, 32, 50, 0.4)
+    ),
+    url(../imgs/kini\ ra_cleanup.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: relative;
+  width: 860px;
+  height: 460px;
+  border-radius: 5px;
+}
+
+.leftside {
+  width: 57%;
+  /* border-radius: 10px;
+  box-shadow: 1px 1px 5px #092c46; */
+}
+
+.box img {
+  width: 85%;
+  /* height: 459px; */
+}
+
+.header {
+  padding: 15px;
+  align-self: center;
+  margin: 20px 25px 0 0;
+  width: 40%;
+}
+
+.header h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.loginform {
+  padding: 30px;
+}
+
+span {
+  position: absolute;
+  font-size: 1.2rem;
+  right: 75px;
+  bottom: 165px;
+  cursor: pointer;
+}
+
+.usericon {
+  position: absolute;
+  top: 179px;
+  right: 79px;
+}
+
+.btn {
+  border: none;
+  padding: 7px;
+  border-radius: 7px;
+  color: #fff;
+  background: #092c46;
+  width: 40%;
+}
+
+.btn:hover {
+  background: #092032;
+  color: #fff;
+}
+
+/* ==========RESPONSIVE=============== */
+/* 1279px & 1399 */
+@media screen and (max-width: 1023px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    width: 800px;
+    display: flex;
+    position: relative;
+  }
+  .box img {
+    width: 435px;
+    height: auto;
+  }
+  .header {
+    margin: 25px;
+    padding: 15px;
+  }
+  .loginform {
+    position: relative;
+    padding: 10px;
+  }
+  span {
+    position: absolute;
+    top: 127px;
+    right: 11px;
+  }
+  .usericon {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    transform: translateX(100px) translateY(20px);
+    font-size: 1.8rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 700px;
+    width: 630px;
+    border-radius: 5px;
+  }
+  .box img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 85px;
+    border-radius: 10px;
+    box-shadow: none;
+    left: 11%;
+    transform: scale(2);
+  }
+  .header {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .header h2 {
+    font-size: 2.4rem;
+    margin-top: 25px;
+  }
+  .loginform {
+    position: relative;
+  }
+  .usericon {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+  }
+  span {
+    position: absolute;
+    top: 127px;
+    right: 20px;
+    cursor: pointer;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 400px) {
+  .title {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    max-width: 24rem;
+    height: 500px;
+    position: relative;
+  }
+  .box img {
+    display: none;
+  }
+  .loginform {
+    padding: 2rem;
+    position: relative;
+  }
+  .header {
+    margin: 10px;
+    width: 100%;
+  }
+  .header h2 {
+    font-size: 2.1rem;
+    margin-top: -46px;
+    width: 100%;
+  }
+  span {
+    position: absolute;
+    font-size: 1.3rem;
+    right: 2rem;
+    top: 9.2rem;
+    cursor: pointer;
+  }
+  .usericon {
+    position: absolute;
+    font-size: 1.3rem;
+    top: 3.7rem;
+    right: 2rem;
+  }
+  .btn {
+    padding: 0.6rem;
+    width: 50%;
+  }
+}

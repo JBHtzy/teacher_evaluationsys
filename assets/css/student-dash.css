@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(9, 32, 50, 0.219),
+      rgba(9, 32, 50, 0.8)
+    ),
+    url(../imgs/kini\ ra.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.bg-content {
+  background-color: rgba(34, 34, 34, 0.219);
+  height: 500px;
+}
+
+.navbg {
+  background-color: #0e3463;
+}
+
+.navbg img {
+  filter: invert(100%);
+  margin-left: 5px;
+}
+
+.navbg li {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-height: 100%;
+}
+
+.teachrImg {
+  aspect-ratio: 3/3;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 90% !important;
+}
+
+.card img {
+  width: 50%;
+}
+
+.fgroups {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 15px !important;
+}
+
+/* MODAL */
+
+.modal-header {
+  background-color: cadetblue;
+}
+.modal-body,
+.modal-footer {
+  border-top: none !important;
+  background-color: aliceblue !important;
+}
+
+#teachname {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-toggler {
+    filter: invert(100%);
+    position: absolute;
+    right: 20px;
+  }
+}

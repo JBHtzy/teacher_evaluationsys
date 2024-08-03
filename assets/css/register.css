@@ -1,0 +1,53 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(9, 32, 50, 0.219),
+      rgba(9, 32, 50, 0.4)
+    ),
+    url(../imgs/kini\ ra_cleanup.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  margin-bottom: 40px;
+  position: relative;
+  padding: 40px;
+}
+
+.eyeToggle {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 37%;
+  cursor: pointer;
+  left: 93%;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .container {
+    width: 767px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .container {
+    width: 700px;
+  }
+}
