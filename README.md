@@ -2,7 +2,7 @@
 An Online Web-Based Teacher Evaluation System is a digital platform designed to facilitate the assessment and evaluation of teachers' performance and effectiveness. This system provides a structured and systematic approach to gather feedback from students, peers, and administrators, analyze the data, and generate reports that can be used for professional development, performance reviews, and administrative decision-making. By leveraging technology, it streamlines the evaluation process, ensures data-driven decision-making, and fosters a culture of continuous improvement.
 
 # Technologies used:
-HTML, CSS, Bootstrap, JS/jQuery, Ajax, PHP, SweetAlert2, Chart.js, DataTables, MySQL, XAMPP
+HTML, CSS, Bootstrap, JS/jQuery, Ajax, PHP, SweetAlert2, DataTables, MySQL, XAMPP
 
 # Manual
 Set-up XAMPP
