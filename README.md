@@ -30,3 +30,4 @@ Run the project.
 Open the XAMPP Control Panel.
 Start Apache and MySQL.
 The navigate to this link: http://localhost/teacherEval/index.php.
+![image](https://github.com/user-attachments/assets/8ae47dd9-9a4b-45d9-8c74-d042150c3f16)
